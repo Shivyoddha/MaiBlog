@@ -135,7 +135,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-x86-mingw32)
       racc (~> 1.4)
-    orm_adapter (0.5.0)
+    psych (5.1.0)
+      stringio
     public_suffix (5.0.3)
     puma (5.6.7)
       nio4r (~> 2.0)
@@ -205,9 +206,7 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2023.3)
       tzinfo (>= 1.0.0)
-    warden (1.2.9)
-      rack (>= 2.0.9)
-    web-console (4.2.1)
+    web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
@@ -231,7 +230,6 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
-  devise (~> 4.9)
   importmap-rails
   jbuilder
   puma (~> 5.0)
@@ -249,4 +247,4 @@ RUBY VERSION
    ruby 3.2.2p53
 
 BUNDLED WITH
-   2.4.13
+   2.4.10
